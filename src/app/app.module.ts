@@ -15,6 +15,7 @@ import { ResumeEducationComponent } from './my-resume/resume-education/resume-ed
 import { ResumeFooterComponent } from './my-resume/resume-footer/resume-footer.component';
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { CartComponent } from './cart/cart.component';
     ResumeWorkExperienceComponent,
     ResumeEducationComponent,
     ResumeFooterComponent,
-    CartComponent
+    CartComponent,
+    ShippingComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
