@@ -19,19 +19,19 @@ export const products = [
 
 export const r1 = {
   "profile":{
-  "firstName": "Anne",
-  "lastName": "Hall",
+  "firstName": "Jane",
+  "lastName": "Jones",
   "isAlive": true,
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
-  "profession": "Digital Designer",
+  "profession": "Designer",
   "address": {
     "streetAddress": "21 2nd Street",
-    "city": "New York, ",
+    "city": "New York ",
     "state": "NY",
     "postalCode": "10021-3100",
     "country": "USA",
-    "email": "AnHall@email.com"
+    "email": "ex@mail.com"
   },
   "phoneNumbers": [
     {
@@ -44,21 +44,21 @@ export const r1 = {
     }
   ],
 "languages":[
-  {
-    "language": "English",
-    "level": "100%"
-  },
-  
-    {
-    "language": "Spanish",
-    "level": "50%"
-  },
-    {
-    "language": "German",
-    "level": "25%"
-  }
-  
-  ],
+	{
+		"language": "English",
+		"level": "100%"
+	},
+	
+		{
+		"language": "Spanish",
+		"level": "50%"
+	},
+		{
+		"language": "German",
+		"level": "25%"
+	}
+	
+	],
 
 "skills":[
 	{
@@ -81,7 +81,7 @@ export const r1 = {
 	},
   	{
 		"skill": "Angular",
-		"level": "100%"
+		"level": "97%"
 	}
 	],  
   "workExperience": [
