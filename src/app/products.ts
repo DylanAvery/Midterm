@@ -20,19 +20,19 @@ export const products = [
 
 export const r1 = {
   "profile":{
-  "firstName": "Jane",
-  "lastName": "Smith",
+  "firstName": "Anne",
+  "lastName": "Hall",
   "isAlive": true,
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
-  "profession": "Designer",
+  "profession": "Digital Designer",
   "address": {
     "streetAddress": "21 2nd Street",
-    "city": "New York ",
+    "city": "New York, ",
     "state": "NY",
     "postalCode": "10021-3100",
     "country": "USA",
-    "email": "ex@mail.com"
+    "email": "AnHall@email.com"
   },
   "phoneNumbers": [
     {

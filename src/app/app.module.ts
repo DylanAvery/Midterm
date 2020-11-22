@@ -9,15 +9,20 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { MyResumeComponent } from './my-resume/my-resume.component';
-import { MyResuneComponent } from './my-resune/my-resune.component';
+import { ResumeProfileComponent } from './my-resume/resume-profile/resume-profile.component';
+import { ResumeWorkExperienceComponent } from './my-resume/resume-work-experience/resume-work-experience.component';
+import { ResumeEducationComponent } from './my-resume/resume-education/resume-education.component';
+import { ResumeFooterComponent } from './my-resume/resume-footer/resume-footer.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'tutorial', component: ProductListComponent },
+      { path: 'tutorial/products/:productId', component: ProductDetailsComponent },
+      { path: '', component: MyResumeComponent },
+
     ])
   ],
   declarations: [
@@ -27,7 +32,10 @@ import { MyResuneComponent } from './my-resune/my-resune.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     MyResumeComponent,
-    MyResuneComponent
+    ResumeProfileComponent,
+    ResumeWorkExperienceComponent,
+    ResumeEducationComponent,
+    ResumeFooterComponent
   ],
   bootstrap: [ AppComponent ]
 })
