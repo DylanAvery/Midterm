@@ -19,19 +19,19 @@ export const products = [
 
 export const r1 = {
   "profile":{
-  "firstName": "Jane",
-  "lastName": "Jones",
+  "firstName": "Anne",
+  "lastName": "Hall",
   "isAlive": true,
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
-  "profession": "Designer",
+  "profession": "Digital Designer",
   "address": {
     "streetAddress": "21 2nd Street",
     "city": "New York ",
     "state": "NY",
     "postalCode": "10021-3100",
     "country": "USA",
-    "email": "ex@mail.com"
+    "email": "annhall@email.com"
   },
   "phoneNumbers": [
     {
@@ -56,6 +56,10 @@ export const r1 = {
 		{
 		"language": "German",
 		"level": "25%"
+	},
+  {
+		"language": "Japanese",
+		"level": "17%"
 	}
 	
 	],
@@ -63,7 +67,7 @@ export const r1 = {
 "skills":[
 	{
 		"skill": "Adobe Photoshop",
-		"level": "95%"
+		"level": "94%"
 	},
 	
 		{
@@ -72,7 +76,7 @@ export const r1 = {
 	},
 		{
 		"skill": "Illustrator",
-		"level": "85%"
+		"level": "92%"
 	},
 	
 		{
@@ -81,32 +85,32 @@ export const r1 = {
 	},
   	{
 		"skill": "Angular",
-		"level": "97%"
+		"level": "82%"
 	}
 	],  
   "workExperience": [
     {
-	  	"title": "Fullstack Developer / w3schools.com",
+	  	"title": "Fullstack Developer / Twitcbook.com",
 	  	"startDate": "Jun 2017",
       "endDate": "",
       "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
     },
 
     {
-	  	"title": "Front End Developer / w3schools.com",
+	  	"title": "Front End Developer / Twitcbook.com",
 	  	"startDate": "Jan 2015",
       "endDate": "May 2017",
       "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
     },
     {
-	  	"title": "Web Developer / something.com",
+	  	"title": "Web Developer / bearbrick.com",
 	  	"startDate": "Mar 2012",
       "endDate": "Dec 2014",
       "description": "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
     },
 
     {
-	  	"title": "Graphic Designer / designsomething.com",
+	  	"title": "Graphic Designer / kawsone.com",
 	  	"startDate": "Jun 2010",
       "endDate": "Mar 2012",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
@@ -120,7 +124,7 @@ export const r1 = {
       "degree": "Web Development! All I need to know in one place",
     },
     {
-	  	"school": "London Business School",
+	  	"school": "Brooklyn Art Center",
 	  	"date": "2013 - 2015",
       "degree": "Master Degree",
     },
